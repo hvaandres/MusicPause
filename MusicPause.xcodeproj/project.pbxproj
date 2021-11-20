@@ -11,6 +11,10 @@
 		0573570D2748AF0D004CAF03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573570C2748AF0D004CAF03 /* ContentView.swift */; };
 		0573570F2748AF0E004CAF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0573570E2748AF0E004CAF03 /* Assets.xcassets */; };
 		057357122748AF0E004CAF03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 057357112748AF0E004CAF03 /* Preview Assets.xcassets */; };
+		0573571E2748B0F5004CAF03 /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = 0573571A2748B0F5004CAF03 /* artists.json */; };
+		0573571F2748B0F5004CAF03 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 0573571B2748B0F5004CAF03 /* videos.json */; };
+		057357202748B0F5004CAF03 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 0573571C2748B0F5004CAF03 /* covers.json */; };
+		057357212748B0F5004CAF03 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 0573571D2748B0F5004CAF03 /* locations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		0573570C2748AF0D004CAF03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0573570E2748AF0E004CAF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		057357112748AF0E004CAF03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0573571A2748B0F5004CAF03 /* artists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artists.json; sourceTree = "<group>"; };
+		0573571B2748B0F5004CAF03 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		0573571C2748B0F5004CAF03 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		0573571D2748B0F5004CAF03 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		057357092748AF0D004CAF03 /* MusicPause */ = {
 			isa = PBXGroup;
 			children = (
+				057357192748B0A0004CAF03 /* Video */,
+				057357182748B093004CAF03 /* Data */,
 				0573570A2748AF0D004CAF03 /* MusicPauseApp.swift */,
 				0573570C2748AF0D004CAF03 /* ContentView.swift */,
 				0573570E2748AF0E004CAF03 /* Assets.xcassets */,
@@ -65,6 +75,24 @@
 				057357112748AF0E004CAF03 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		057357182748B093004CAF03 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0573571A2748B0F5004CAF03 /* artists.json */,
+				0573571C2748B0F5004CAF03 /* covers.json */,
+				0573571D2748B0F5004CAF03 /* locations.json */,
+				0573571B2748B0F5004CAF03 /* videos.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		057357192748B0A0004CAF03 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +153,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				057357202748B0F5004CAF03 /* covers.json in Resources */,
 				057357122748AF0E004CAF03 /* Preview Assets.xcassets in Resources */,
+				0573571F2748B0F5004CAF03 /* videos.json in Resources */,
+				0573571E2748B0F5004CAF03 /* artists.json in Resources */,
+				057357212748B0F5004CAF03 /* locations.json in Resources */,
 				0573570F2748AF0E004CAF03 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
