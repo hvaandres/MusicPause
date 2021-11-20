@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053C202D2748B4F100F85907 /* willsmith-video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 053C202C2748B4F100F85907 /* willsmith-video.mp4 */; };
+		053C202F2748B78100F85907 /* jaden-video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 053C202E2748B78100F85907 /* jaden-video.mp4 */; };
+		053C20312748B79000F85907 /* badbunny-video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 053C20302748B79000F85907 /* badbunny-video.mp4 */; };
 		0573570B2748AF0D004CAF03 /* MusicPauseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573570A2748AF0D004CAF03 /* MusicPauseApp.swift */; };
 		0573570D2748AF0D004CAF03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573570C2748AF0D004CAF03 /* ContentView.swift */; };
 		0573570F2748AF0E004CAF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0573570E2748AF0E004CAF03 /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		053C202C2748B4F100F85907 /* willsmith-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "willsmith-video.mp4"; sourceTree = "<group>"; };
+		053C202E2748B78100F85907 /* jaden-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jaden-video.mp4"; sourceTree = "<group>"; };
+		053C20302748B79000F85907 /* badbunny-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "badbunny-video.mp4"; sourceTree = "<group>"; };
 		057357072748AF0D004CAF03 /* MusicPause.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPause.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0573570A2748AF0D004CAF03 /* MusicPauseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPauseApp.swift; sourceTree = "<group>"; };
 		0573570C2748AF0D004CAF03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 		057357192748B0A0004CAF03 /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				053C20302748B79000F85907 /* badbunny-video.mp4 */,
+				053C202E2748B78100F85907 /* jaden-video.mp4 */,
+				053C202C2748B4F100F85907 /* willsmith-video.mp4 */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -154,8 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				057357202748B0F5004CAF03 /* covers.json in Resources */,
+				053C20312748B79000F85907 /* badbunny-video.mp4 in Resources */,
+				053C202D2748B4F100F85907 /* willsmith-video.mp4 in Resources */,
 				057357122748AF0E004CAF03 /* Preview Assets.xcassets in Resources */,
 				0573571F2748B0F5004CAF03 /* videos.json in Resources */,
+				053C202F2748B78100F85907 /* jaden-video.mp4 in Resources */,
 				0573571E2748B0F5004CAF03 /* artists.json in Resources */,
 				057357212748B0F5004CAF03 /* locations.json in Resources */,
 				0573570F2748AF0E004CAF03 /* Assets.xcassets in Resources */,
